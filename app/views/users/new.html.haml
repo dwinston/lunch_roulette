@@ -1,0 +1,10 @@
+= form_for(@user, url: users_path, method: :post) do  |f|
+  .field
+    = f.text_field :username
+    = '@' + User.domain
+  .field
+    = f.label :wants_lunch, 'In?'
+    = f.check_box :wants_lunch
+  .field
+    = f.submit 'Post'
+

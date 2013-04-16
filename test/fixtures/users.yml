@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: MyString
+  wants_lunch: false
+  num_lunches: 1
+
+two:
+  email: MyString
+  wants_lunch: false
+  num_lunches: 1
