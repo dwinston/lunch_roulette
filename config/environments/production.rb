@@ -64,7 +64,7 @@ LunchRoulette::Application.configure do
   }
 
   # specify what domain to use for mailer URLs
-  config.action_mailer.default_url_options = {host: "intuit-lunch-roulette.herokuapp.com"} 
+  config.action_mailer.default_url_options = {host: ENV["MAILER_HOST"]} 
 
   # Enable threaded mode
   # config.threadsafe!

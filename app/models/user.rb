@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   scope :all_wanting_lunch, where(wants_lunch: true)
 
   def self.domain
-    'gmail.com'
+    ENV["USER_DOMAIN"]
   end
 
   def username

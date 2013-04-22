@@ -1,0 +1,12 @@
+GMAIL_USERNAME: 'example@gmail.com'
+GMAIL_PASSWORD: 'xxxx'
+SECRET_TOKEN: 'secret'
+USER_NAME: 'user'
+USER_PASSWORD: 'pass'
+USER_DOMAIN: 'company.com'
+MAILING_NAME: 'user'
+MAILING_PASSWORD: 'pass'
+development:
+  MAILER_HOST: 'localhost:3000'
+production:
+  MAILER_HOST: "example.herokuapp.com"
